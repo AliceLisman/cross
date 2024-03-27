@@ -1,0 +1,268 @@
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+.body {
+    margin: 0px;
+}
+
+.header {
+    padding: 30px 0 16px;
+    border-bottom:1px solid #A1A6B4;
+}
+
+.container {
+width: 1161px;
+margin: 0px auto;
+display: flex;
+   align-items: center;
+   background: #fff;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+
+
+
+.header-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(241, 241, 241);
+    gap: 24px;
+
+}
+
+.header-img {
+    width: 212.34px;
+    height: 63.24px;
+    background-color: #FFF;
+    border-radius: 0px;
+}
+
+.nav {
+    display: flex;
+    height: 20px;
+    align-items: center;
+    gap: 24px;
+  
+}
+
+.nav_items {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;  
+
+
+}
+
+.nav-item {
+    display: flex;
+    color: black;
+    background: #FFF;
+    text-decoration: none;
+    align-items: center;
+    font-weight: 700;
+    font-family: Anonymous Pro;
+font-size: 20px;
+font-style: normal;
+
+
+}
+
+.main {
+background: #F1F1F1;
+}
+
+.cross {
+    display: flex;
+    max-width: 1161px;
+    align-items: center;
+    gap: 25px;
+    border-radius: 12px;
+    padding: 25px 0px;
+    margin: 0px auto;
+    flex-wrap: wrap;
+
+
+}
+
+.h2 {
+    left: 0px;
+    width: 767px;
+    color: #000;
+    font-family: Anonymous Pro;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    margin: 0px;
+}
+
+.h3 {
+    color: #121723;
+    font-family: Anonymous Pro;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-size: 26px;
+}
+
+.p {
+    color: #121723;
+    background: #fff;
+    font-family: Anonymous Pro;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 20px;
+}
+
+
+
+
+.sneakers {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sneaker {
+    display: flex;
+    align-items: flex-start;
+    background: #F1F1F1;
+    flex-direction: column;
+
+}
+
+.img {
+    width: 371px;
+    border-radius: 12px 12px 0px 0px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    margin-bottom: 0px;
+}
+
+.sneaker_info {
+    display: flex;
+    flex-direction: column;
+    width: 323px;
+    padding: 32px 24px;
+    gap: 10px;
+    border-radius: 0px 0px 12px 12px;
+    background: #FFF;
+
+}
+
+
+.sneaker_title {
+   margin: 0px;
+   color: #121723;
+font-family: Anonymous Pro;
+font-size: 26px;
+font-weight: 700;
+}
+
+.sneaker__text {
+    color: #121723;
+    background: #fff;
+    font-family: Anonymous Pro;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 20px;
+    margin: 0px;
+}
+
+
+
+.footer {
+    margin: 0px auto;
+    background: #121723;
+}
+
+.card{
+    width: 1161px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    background: #121723;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.footer_line {
+    display: flex; 
+    background: #121723;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.footer-img {
+    width: 299.653px;
+    height: 22.32px;
+    background-color: #000;
+    border-radius: 0px;
+
+}
+
+.footer_elements {
+    display: flex;
+    gap: 24px; 
+    list-style: none;
+    margin: 0px;
+    padding: 0px;;
+    
+}
+
+.footer_element {
+    display: flex;
+    color: #FFF;
+    background-color: #121723;
+    text-decoration: none;
+   font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.hr {
+    width: 100%;
+    height: 1px;
+    background-color: #E6E8EC66;
+    margin: 0px;
+    padding: 0px;
+}
+
+.line {
+    display: flex;
+    width: 1160px;
+    color: #A1A6B4;
+    background: #121723;
+    flex-direction: column;
+    font-family: Anonymous Pro;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 18px 0px 21px;
+
+}
+
